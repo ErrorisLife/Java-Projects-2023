@@ -1,7 +1,7 @@
-# Java-Projects-2023
- Desktop Application projects
+# Java-Programs-2023
+
+Java Programs
+Im still new year and so project are still scarce.
+ Later on i'll try to be more active to commit other java programs
  
- # Im still new year and so project are still scarce.
- Later on i'll try to be more active to commit other project
- 
- #Specifically student project that used Java language, since i'm also a student
+ Specifically student project that used Java language, since i'm also a student.
