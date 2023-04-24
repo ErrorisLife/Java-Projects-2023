@@ -180,6 +180,7 @@ public class loginform {
 		mainpanel.add(invalidLabel);
 		
 		JButton logIn = new JButton("Log In");
+		
 		logIn.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				login();
