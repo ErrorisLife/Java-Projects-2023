@@ -180,7 +180,7 @@ public class loginform {
 		mainpanel.add(invalidLabel);
 		
 		JButton logIn = new JButton("Log In");
-		
+		logIn.setMnemonic(KeyEvent.VK_N);
 		logIn.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				login();
@@ -193,6 +193,7 @@ public class loginform {
 		mainpanel.add(logIn);
 		
 		JButton clear = new JButton("Clear");
+		cancel.setMnemonic(KeyEvent.VK_C);
 		clear.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				clear();
@@ -205,6 +206,7 @@ public class loginform {
 		mainpanel.add(clear);
 		
 		JButton cancel = new JButton("Cancel");
+		logIn.setMnemonic(KeyEvent.VK_A);
 		cancel.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				cancel();
